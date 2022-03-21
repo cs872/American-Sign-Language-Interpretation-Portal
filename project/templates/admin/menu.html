@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul class="navbar-nav left-side-nav" id="accordion">
+
+                <li class="nav-item-search" data-toggle="tooltip" data-placement="right" title="Search">
+                    <div class="nav-link nav-link-collapse collapsed" data-toggle="collapse">
+                        <i class="fa fa-user-circle"></i>
+                        <span class="nav-link-text">
+                            <a href="/admin">Admin</a>
+                        </span>
+                    </div>
+                </li>
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="UI Elements">
+                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" data-target="#ui_elements">
+                        <i class="fa fa-group"></i>
+                        <span class="nav-link-text">Manage User</span>
+                    </a>
+                    <ul class="sidenav-second-level collapse" id="ui_elements" data-parent="#accordion">
+                        <li> <a href="/viewUser">View User</a> </li>
+             </ul>
+                </li>
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Widgets">
+                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" data-target="#widgets">
+                        <i class="fa fa-exclamation-circle"></i>
+                        <span class="nav-link-text">Manage Complain</span>
+                    </a>
+                    <ul class="sidenav-second-level collapse" id="widgets" data-parent="#accordion">
+                        <li> <a href="/adminViewComplain">View Complain</a> </li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Icons">
+                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" data-target="#icons">
+                        <i class="fa fa-comments"></i>
+                        <span class="nav-link-text">Manage Feedback</span>
+                    </a>
+                    <ul class="sidenav-second-level collapse" id="icons" data-parent="#accordion">
+                        <li> <a href="/adminViewFeedback">View Feedback</a> </li>
+                    </ul>
+                </li>
+            </ul>
+
+</body>
+</html>

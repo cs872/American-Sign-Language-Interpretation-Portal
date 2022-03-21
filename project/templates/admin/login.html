@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mosaddek">
+
+    <!--favicon icon-->
+    <link rel="icon" type="image/png" href="../../static/adminResources/images/favicon.png">
+
+    <title>Login</title>
+
+    <!--web fonts-->
+    <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <!--bootstrap styles-->
+    <link href="../../static/adminResources/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--icon font-->
+    <link href="../../static/adminResources/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../static/adminResources/css/dashlab-icon.css" rel="stylesheet">
+    <link href="../../static/adminResources/css/simple-line-icons.css" rel="stylesheet">
+    <link href="../../static/adminResources/css/themify-icons.css" rel="stylesheet">
+    <link href="../../static/adminResources/css/weather-icons.min.css" rel="stylesheet">
+
+    <!--custom scrollbar-->
+    <link href="../../static/adminResources/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+
+    <!--jquery dropdown-->
+    <link href="../../static/adminResources/css/jquery.dropdown.css" rel="stylesheet">
+
+    <!--jquery ui-->
+    <link href="../../static/adminResources/css/jquery-ui.min.css" rel="stylesheet">
+
+    <!--iCheck-->
+    <link href="../../static/adminResources/css/_all.css" rel="stylesheet">
+
+    <!--custom styles-->
+    <link href="../../static/adminResources/css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../../static/adminResources/js/html5shiv.js"></script>
+    <script src="../../static/adminResources/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="login-bg" style="background-image: url('../../static/adminResources/images/login4.png');height: 100%; background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; ">
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 d-lg-flex align-items-center"  ">
+                <!--login form-->
+                <div class="login-form">
+
+
+
+                    <h4 class="text-uppercase text-purple text-center mb-5">Login</h4>
+
+
+                    {{ loginerrorDict }}
+
+                    <form action="/checkLogin"  method="post" >
+                        <div class="form-group">
+                            <input type="email" name="loginEmail" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group mb-4">
+                            <input type="password" name="loginPassword" class="form-control" id="exampleInputPassword1" placeholder="Enter Password" required>
+                        </div>
+
+                        <div class="form-group clearfix">
+                            <a href="/loadForgetPassword" class="float-left forgot-link my-2">Forgot Password ?</a>
+                            <button type="submit" class="btn btn-purple float-right">LOGIN</button>
+
+
+                        <div class="form-divider"></div>
+
+                        </div>
+
+
+
+                        <div class="text-center mt-4">
+                            <a href="/loadRegister" class="btn-link text-capitalize f12">Create New Account</a>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--basic scripts-->
+    <script src="../../static/adminResources/js/jquery.min.js"></script>
+    <script src="../../static/adminResources/js/jquery-ui.min.js"></script>
+    <script src="../../static/adminResources/js/popper.min.js"></script>
+    <script src="../../static/adminResources/js/bootstrap.min.js"></script>
+    <script src="../../static/adminResources/js/jquery.dropdown.js"></script>
+    <script src="../../static/adminResources/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../../static/adminResources/js/icheck.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="../../static/adminResources/js/modernizr.js"></script>
+    <![endif]-->
+
+    <!--basic scripts initialization-->
+    <script src="../../static/adminResources/js/scripts.js"></script>
+</body>
+</html>
+

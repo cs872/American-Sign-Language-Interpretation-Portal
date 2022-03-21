@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul class="navbar-nav left-side-nav" id="accordion">
+
+                <li class="nav-item-search" data-toggle="tooltip" data-placement="right" title="Search">
+                    <div class="nav-link nav-link-collapse collapsed" data-toggle="collapse">
+                        <i class="fa fa-user-circle"></i>
+                        <span class="nav-link-text">
+                            <a href="/user">User</a>
+                        </span>
+                    </div>
+                </li>
+
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="UI Elements">
+                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" data-target="#ui_elements" >
+                        <i class="fa fa-comments"></i>
+                        <span class="nav-link-text">Sign Recognition</span>
+                    </a>
+                    <ul class="sidenav-second-level collapse" id="ui_elements" data-parent="#accordion">
+                        <li> <a href="/performHandSign">Perform Handsign</a> </li>
+                        <!-- <li> <a href="/learnHandSign">Learn Hand Signs</a> </li> -->       </ul>
+                </li>
+
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" data-target="#dashboard" >
+                        <i class="fa fa-exclamation-circle"></i>
+                        <span class="nav-link-text">Complain</span>
+                    </a>
+                    <ul class="sidenav-second-level collapse" id="dashboard" data-parent="#accordion">
+                        <li> <a href="/userViewComplain">View Complain</a> </li>
+                        <li> <a href="/loadComplain">Add Complain</a> </li>
+                    </ul>
+                </li>
+
+
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="UI Elements">
+                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" data-target="#ui_elements3" >
+                        <i class="fa fa-comments"></i>
+                        <span class="nav-link-text">Feedback</span>
+                    </a>
+                    <ul class="sidenav-second-level collapse" id="ui_elements3" data-parent="#accordion">
+                        <li> <a href="/userViewFeedback">View Feedback</a> </li>
+                        <li> <a href="/loadFeedback">Add Feedback</a> </li>
+                    </ul>
+                </li>
+     </ul>
+
+</body>
+</html>

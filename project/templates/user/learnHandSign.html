@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mosaddek">
+
+
+
+    <title>DashLab Home</title>
+
+    <!--web fonts-->
+    <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <!--bootstrap styles-->
+    <link href="../../static/adminResources/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--icon font-->
+    <link href="../../static/adminResources/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../static/adminResources/css/dashlab-icon.css" rel="stylesheet">
+    <link href="../../static/adminResources/css/simple-line-icons.css" rel="stylesheet">
+    <link href="../../static/adminResources/css/themify-icons.css" rel="stylesheet">
+    <link href="../../static/adminResources/css/weather-icons.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" href="../../static/adminResources/images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="../../static/adminResources/images/favicon1.png">
+
+    <!-- core dependcies css -->
+    <link rel="stylesheet" href="../../static/adminResources/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../static/adminResources/css/pace-theme-minimal.css" />
+    <link rel="stylesheet" href="../../static/adminResources/css/perfect-scrollbar.min.css" />
+
+    <!-- page css -->
+    <link rel="stylesheet" href="../../static/adminResources/css/lightbox.min.css" />
+    <style>
+        .img-size{
+            width: 27.32vh;
+            height:24.5vh;
+            padding: 13px;
+            -webkit-user-drag: none;
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+            -webkit-padding:10px;
+        }
+        .img-size:hover{
+            filter: none;
+            -webkit-filter: none;
+            transform: scale(1.01);
+            -webkit-transform: scale(1.1);
+            transition-duration: 0.7ms;
+            -webkit-transition-duration: 0.7ms;
+        }
+    </style>
+
+    <!-- core css -->
+    <link href="../../static/adminResources/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../static/adminResources/css/themify-icons.css" rel="stylesheet">
+    <link href="../../static/adminResources/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="../../static/adminResources/css/animate.min.css" rel="stylesheet">
+    <link href="../../static/adminResources/css/app.css" rel="stylesheet">
+
+    <!--custom scrollbar-->
+    <link href="../../static/adminResources/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+
+
+    <!--jquery dropdown-->
+    <link href="../../static/adminResources/css/jquery.dropdown.css" rel="stylesheet">
+
+    <!--jquery ui-->
+    <link href="../../static/adminResources/css/jquery-ui.min.css" rel="stylesheet">
+
+    <!--iCheck-->
+    <link href="../../static/adminResources/css/_all.css" rel="stylesheet">
+
+    <!--vector maps -->
+    <link href="../../static/adminResources/css/jquery-jvectormap-1.1.1.css" rel="stylesheet" >
+
+    <!--c3chart-->
+    <link href="../../static/adminResources/css/c3.min.css" rel="stylesheet">
+
+    <!--custom styles-->
+    <link href="../../static/adminResources/css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../../static/adminResources/js/html5shiv.js"></script>
+    <script src="../../static/adminResources/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="fixed-nav">
+
+
+    {% include 'user/header.html' %}
+
+        <!--responsive rightside toogle-->
+        <a href="javascript:;" class="nav-link right_side_toggle responsive-right-side-toggle">
+            <i class="icon-options-vertical"> </i>
+        </a>
+        <!--/responsive rightside toogle-->
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+
+            <!--left side nav-->
+
+            {% include 'user/menu.html' %}
+            <!--header rightside links-->
+        {% include 'user/headRightsidelink.html' %}
+            <!--/header rightside links-->
+
+        </div>
+    </nav>
+    <!--/navigation : sidebar & header-->
+
+    <!--main content wrapper-->
+    <div class="content-wrapper">
+         <div class="container-fluid">
+                        <div class="card">
+                            <div class="card-header border bottom">
+                                <center>  <h1 class="card-title">Sign Language Alphatbets</h1></center>
+                            </div>
+                            <div class="card-body embed-responsive">
+                                <div class="row">
+                                    <a href="../../static/adminResources/images/A_color.png" data-lightbox="sign"><img src="../../static/adminResources/images/A_color.png" alt="A" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px" ></a>
+                                    <a href="../../static/adminResources/images/B_color.png" data-lightbox="sign"> <img src="../../static/adminResources/images/B_color.png" alt="B" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/C_color.png" data-lightbox="sign"><img src="../../static/adminResources/images/C_color.png" alt="C" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/D_color.png" data-lightbox="sign"><img src="../../static/adminResources/images/D_color.png" alt="D" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/E_color.png" data-lightbox="sign"> <img src="../../static/adminResources/images/E_color.png" alt="E" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+
+
+                                    <a href="../../static/adminResources/images/F_color.png" data-lightbox="sign"> <img src="../../static/adminResources/images/F_color.png" alt="F" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/G_color.png" data-lightbox="sign">  <img src="../../static/adminResources/images/G_color.png" alt="G" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/H_color.png" data-lightbox="sign">  <img src="../../static/adminResources/images/H_color.png" alt="H" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/I_color.png" data-lightbox="sign">   <img src="../../static/adminResources/images/I_color.png" alt="I" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/J_color.png" data-lightbox="sign">   <img src="../../static/adminResources/images/J_color.png" alt="J" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+
+                                     <a href="../../static/adminResources/images/K_color.png" data-lightbox="sign">   <img src="../../static/adminResources/images/K_color.png" alt="K" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                     <a href="../../static/adminResources/images/L_color.png" data-lightbox="sign">  <img src="../../static/adminResources/images/L_color.png" alt="L" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                     <a href="../../static/adminResources/images/M_color.png" data-lightbox="sign">    <img src="../../static/adminResources/images/M_color.png" alt="M" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                     <a href="../../static/adminResources/images/N_color.png" data-lightbox="sign">    <img src="../../static/adminResources/images/N_color.png" alt="N" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                     <a href="../../static/adminResources/images/O_color.png" data-lightbox="sign">    <img src="../../static/adminResources/images/O_color.png" alt="O" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+
+                                    <a href="../../static/adminResources/images/P_color.png" data-lightbox="sign"> <img src="../../static/adminResources/images/P_color.png" alt="P" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/Q_color.png" data-lightbox="sign">    <img src="../../static/adminResources/images/Q_color.png" alt="Q" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/R_color.png" data-lightbox="sign">    <img src="../../static/adminResources/images/R_color.png" alt="R" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/S_color.png" data-lightbox="sign">    <img src="../../static/adminResources/images/S_color.png" alt="S" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/T_color.png" data-lightbox="sign">    <img src="../../static/adminResources/images/T_color.png" alt="T" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+
+                                    <a href="../../static/adminResources/images/U_color.png" data-lightbox="sign">  <img src="../../static/adminResources/images/U_color.png" alt="U" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/V_color.png" data-lightbox="sign">  <img src="../../static/adminResources/images/V_color.png" alt="V" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/W_color.png" data-lightbox="sign">  <img src="../../static/adminResources/images/W_color.png" alt="W" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/X_color.png" data-lightbox="sign">  <img src="../../static/adminResources/images/X_color.png" alt="X" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                    <a href="../../static/adminResources/images/Y_color.png" data-lightbox="sign">    <img src="../../static/adminResources/images/Y_color.png" alt="Y" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+
+                                    <a href="../../static/adminResources/images/Z_color.png" data-lightbox="sign">    <img src="../../static/adminResources/images/Z_color.png" alt="Z" class="img-fluid img-thumbnail img-size" hspace="10px" vspace="10px"></a>
+                                </div><br>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+        
+
+        <!--footer-->
+        {% include 'user/footer.html' %}
+        <!--/footer-->
+    </div>
+    <!--/main content wrapper-->
+   
+    <!--basic scripts-->
+    <script src="../../static/adminResources/js/jquery.min.js"></script>
+    <script src="../../static/adminResources/js/jquery-ui.min.js"></script>
+    <script src="../../static/adminResources/js/popper.min.js"></script>
+    <script src="../../static/adminResources/js/bootstrap.min.js"></script>
+
+    <script src="../../static/adminResources/js/jquery.dropdown.js"></script>
+
+    <script src="../../static/adminResources/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!--sparkline-->
+    <script src="../../static/adminResources/js/jquery.sparkline.js"></script>
+    <!--sparkline initialization-->
+    <script src="../../static/adminResources/js/init-sparkline.js"></script>
+
+    <!--c3chart-->
+    <script src="../../static/adminResources/js/d3.min.js"></script>
+    <script src="../../static/adminResources/js/c3.min.js"></script>
+    <!--c3chart initialization-->
+    <script src="../../static/adminResources/js/init-c3chart.js"></script>
+
+    <!--chartjs-->
+    <script src="../../static/adminResources/js/Chart.bundle.min.js"></script>
+    <!--chartjs initialization-->
+    <script src="../../static/adminResources/js/init-creative-state-chart.js"></script>
+    <script src="../../static/adminResources/js/init-area-chart.js"></script>
+    <script src="../../static/adminResources/js/init-line-chart.js"></script>
+    <script src="../../static/adminResources/js/init-doughnut-chart.js"></script>
+    <script src="../../static/adminResources/js/init-doughnut-chart2.js"></script>
+    <script src="../../static/adminResources/js/init-sales-report-chart.js"></script>
+    <script src="../../static/adminResources/js/init-bubble-chart.js"></script>
+
+    <!--flot chart-->
+    <script src="../../static/adminResources/js/jquery.flot.min.js"></script>
+    <script src="../../static/adminResources/js/jquery.flot.pie.min.js"></script>
+    <script src="../../static/adminResources/js/jquery.flot.tooltip.min.js"></script>
+    <!--flot chart initialization-->
+    <script src="../../static/adminResources/js/init-flot-widget.js"></script>
+
+    <!--vectormap-->
+    <script src="../../static/adminResources/js/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="../../static/adminResources/js/jquery-jvectormap-world-mill-en.js"></script>
+    <!--vectormap initialization-->
+    <script src="../../static/adminResources/js/init-vmap-world.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="../../static/adminResources/js/modernizr.js"></script>
+    <![endif]-->
+
+    <!--basic scripts initialization-->
+    <script src="../../static/adminResources/js/scripts.js"></script>
+</body>
+</html>
+
